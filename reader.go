@@ -22,7 +22,6 @@ import (
 	"bufio"
 	"bytes"
 	"errors"
-	"fmt"
 	"image"
 	"image/color"
 	"io"
@@ -99,7 +98,6 @@ func (d *decoder) decode(r io.Reader, configOnly bool) (image.Image, error) {
 
 			img.SetRGBA(x, y, getColorFromBoolean(pixel))
 		}
-		fmt.Println("yo")
 	}
 	return img, nil
 }
