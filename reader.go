@@ -31,7 +31,7 @@ import (
 )
 
 func init() {
-	image.RegisterFormat("ppm", "P6", Decode, DecodeConfig)
+	image.RegisterFormat("pbm", "P4", Decode, DecodeConfig)
 }
 
 var (
@@ -39,7 +39,7 @@ var (
 	errNotEnough = errors.New("pbm: not enough image data")
 )
 
-// Decode reads a PPM image from Reader r and returns it as an image.Image.
+// Decode reads a PBM image from Reader r and returns it as an image.Image.
 func Decode(r io.Reader) (image.Image, error) {
 	var d decoder
 	img, err := d.decode(r, false)
