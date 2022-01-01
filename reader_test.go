@@ -58,7 +58,7 @@ func TestDecode(t *testing.T) {
 }
 
 func TestDecodeFiles(t *testing.T) {
-	filepaths := []string{"fixtures/sample_1280X853.pbm", "fixtures/sample_1920X1280.pbm", "fixtures/sample_5184X3456.pbm", "fixtures/sample_640X426.pbm"}
+	filepaths := []string{"fixtures/sample_1280_853.pbm", "fixtures/sample_1920_1280.pbm", "fixtures/sample_5184_3456.pbm", "fixtures/sample_640_426.pbm"}
 	for _, path := range filepaths {
 		f, err := os.Open(path)
 		if err != nil {
