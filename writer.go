@@ -64,9 +64,5 @@ func Encode(w io.Writer, img image.Image) error {
 func getBooleanFromColor(c color.Color) bool {
 	r, g, b, _ := c.RGBA()
 	lum := (r + g + b) / 3
-	if lum > uint32(0xffff)/2 {
-		return false
-	} else {
-		return true
-	}
+	return lum <= uint32(0xffff)/2
 }
