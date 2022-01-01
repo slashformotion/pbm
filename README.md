@@ -1,4 +1,4 @@
-# Package ppm [![PkgGoDev](https://pkg.go.dev/badge/github.com/slashformotion/pbm)](https://pkg.go.dev/github.com/slashformotion/pbm) [![Go Report Card](https://goreportcard.com/badge/github.com/slashformotion/pbm)](https://goreportcard.com/report/github.com/slashformotion/pbm)
+# Package ppm [![PkgGoDev](https://pkg.go.dev/badge/github.com/slashformotion/pbm)](https://pkg.go.dev/github.com/slashformotion/pbm) [![Go Report Card](https://goreportcard.com/badge/github.com/slashformotion/pbm)](https://goreportcard.com/report/github.com/slashformotion/pbm) [![Tests](https://github.com/slashformotion/pbm/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/slashformotion/pbm/actions/workflows/test.yml)
 
 
 ```
