@@ -1,3 +1,9 @@
+// Package pbm implements a Portable Bit Map. (PBM) image decoder and encoder. The supported image
+// color model is color.RGBAModel.
+//
+// The PBM specification is at http://netpbm.sourceforge.net/doc/pbm.html.
+package pbm
+
 // Copyright [2022] slashformotion
 
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,12 +17,6 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-package pbm
-
-// Package pbm implements a Portable Bit Map. (PBM) image decoder and encoder. The supported image
-// color model is color.RGBAModel.
-//
-// The PBM specification is at http://netpbm.sourceforge.net/doc/pbm.html.
 
 import (
 	"bufio"
