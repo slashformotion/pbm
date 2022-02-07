@@ -32,7 +32,7 @@ func TestDecodeConfigErrorNotNil(t *testing.T) {
 	}
 }
 func TestDecodeConfigNegativeDims(t *testing.T) {
-	testString := `P2
+	testString := `P4
 24 -24
 
 `

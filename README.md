@@ -6,7 +6,7 @@ import "github.com/slashformotion/pbm"
 ```
 Package pbm implements a Portable Bit Map (PBM) image decoder and encoder. The supported image color model is [color.RGBAModel](https://pkg.go.dev/image/color#RGBAModel).
 
-The PBM specification is at http://netpbm.sourceforge.net/doc/pbm.html.
+The PBM specification is at http://netpbm.sourceforppge.net/doc/pbm.html.
 
 
 ## func Decode
