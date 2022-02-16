@@ -140,11 +140,11 @@ func (d *decoder) decodeHeader() error {
 		return errBadHeader
 	}
 	d.width, err = strconv.Atoi(string(headerFields[1]))
-	if err != nil {
+	if err != nil || d.width <= 0 {
 		return errBadHeader
 	}
 	d.height, err = strconv.Atoi(string(headerFields[2]))
-	if err != nil {
+	if err != nil || d.height <= 0 {
 		return errBadHeader
 	}
 	return nil
